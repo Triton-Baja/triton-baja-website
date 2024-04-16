@@ -13,12 +13,19 @@ const NavBar = () => {
 
     return (
         <AppBar position="static">
-            <Toolbar>
-                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+            <Toolbar sx={{backgroundColor: '#04142D'}}>
+                <Typography 
+                variant="h6"
+                component="div" 
+                sx={{color: '#FEBA01', fontFamily: 'Poppins,Arial,Helvetica,sans-serif', fontWeight: 400, flexGrow: 1}}>
                     Triton Baja
                 </Typography>
                 {navItems.map((item, index) => (
-                    <Button key={index} component={Link} to={item.link} color="inherit">
+                    <Button 
+                    key={index}
+                    component={Link} 
+                    to={item.link} 
+                    sx={{ color: '#FEBA01', fontFamily: 'Poppins, sans-serif', fontWeight: 400 }}>
                         {item.text}
                     </Button>
                 ))}
