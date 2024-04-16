@@ -17,7 +17,7 @@ const NavBar = () => {
                 <Typography 
                 variant="h6"
                 component="div" 
-                sx={{color: '#FEBA01', fontFamily: 'Poppins,Arial,Helvetica,sans-serif', fontWeight: 400, flexGrow: 1}}>
+                sx={{color: '#FEBA01', fontFamily: 'Arial, sans-serif', fontWeight: 400, flexGrow: 1}}>
                     Triton Baja
                 </Typography>
                 {navItems.map((item, index) => (
@@ -25,7 +25,7 @@ const NavBar = () => {
                     key={index}
                     component={Link} 
                     to={item.link} 
-                    sx={{ color: '#FEBA01', fontFamily: 'Poppins, sans-serif', fontWeight: 400 }}>
+                    sx={{ color: '#FEBA01', fontFamily: 'Arial, sans-serif', fontWeight: 400 }}>
                         {item.text}
                     </Button>
                 ))}
