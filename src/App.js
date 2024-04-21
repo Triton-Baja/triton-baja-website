@@ -9,6 +9,7 @@ function App() {
     <BrowserRouter>
       <Container maxWidth={false} style={{ margin: 0, padding: 0 }}>
         <NavBar />
+        <h1>sup cuh</h1>
       </Container>
     </BrowserRouter>
   );
