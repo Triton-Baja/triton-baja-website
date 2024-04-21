@@ -1,0 +1,18 @@
+.shadow-text {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .main-text,
+  .shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: black; /* Change this to your desired main text color */
+  }
+  
+  .shadow {
+    color: gray; /* Change this to your desired shadow color */
+    z-index: -1;
+    transform: translate(2px, 2px); /* Adjust the shadow position */
+  }

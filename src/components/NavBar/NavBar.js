@@ -1,32 +1,48 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { AppBar, Toolbar, Typography, Button } from '@mui/material';
 import { Link } from 'react-router-dom';
-import './NavBar.css';
 import Logo from '../../logo.png';
+import './NavBar.css';
 
 const NavBar = () => {
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const offset = window.scrollY;
+            if (offset > 50) {
+                setIsScrolled(true);
+            } else {
+                setIsScrolled(false);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     const navItems = [
-        { text: ' Home ', link: '/' },
-        { text: ' Our Design ', link: '/design' },
-        { text: ' Meet The Team ', link: '/team' },
-        { text: ' Getting Involved ', link: '/involved' },
-        { text: ' Sponsorship ', link: '/sponsorship' },
+        { text: 'Home', link: '/' },
+        { text: 'Our Design', link: '/design' },
+        { text: 'Meet The Team', link: '/team' },
+        { text: 'Getting Involved', link: '/involved' },
+        { text: 'Sponsorship', link: '/sponsorship' },
     ];
 
+
     return (
-        <AppBar position="static">
-            <Toolbar sx={{backgroundColor: '#04142D'}}>
-                <img src={Logo} alt="Logo" style={{ marginRight: '10px', height: '70px' }} /> 
+        <AppBar position="fixed" className={ isScrolled ? "navbar scrolled" : "navbar"}>
+            <Toolbar className = { 'navbar' }>
+                <img src={Logo} alt="Logo" className='navbar-logo'/> 
 
                 <Typography 
                 variant="h6"
                 component="div" 
-                sx={{color: '#FEBA01', 
-                    fontFamily: 'Poppins, sans-serif', 
-                    fontWeight: '400', 
-                    fontSize: '24px',
-                    flexGrow: 1}}>
-
+                className = 'navbar-title'
+                >
                     Triton Baja
                 </Typography>
 
@@ -35,11 +51,8 @@ const NavBar = () => {
                     key={index}
                     component={Link} 
                     to={item.link} 
-                    sx={{ color: '#FEBA01', 
-                        fontFamily: 'Poppins, sans-serif', 
-                        fontWeight: '400',
-                        fontSize: '16px'
-                        }}>
+                    className = 'navbar-link'
+                    >
                         {item.text}
                     </Button>
                 ))}
