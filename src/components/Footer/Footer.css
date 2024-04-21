@@ -6,6 +6,10 @@
     justify-content: center;
     align-items: center;
   }
+
+  .ucsd-logo {
+    height: 120px;
+  }
   
   .footer-subscription {
     display: flex;

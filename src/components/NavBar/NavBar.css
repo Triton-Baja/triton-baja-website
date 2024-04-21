@@ -6,7 +6,7 @@
 }
 
 .navbar {
-    background-color: #04142D !important;
+    background-color: rgb(4, 20, 45) !important;
     transition: background-color 0.3s ease !important;
 }
   

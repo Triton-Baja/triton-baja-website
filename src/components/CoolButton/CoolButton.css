@@ -20,7 +20,7 @@
     background-color: transparent;
     color: #fff;
     padding: 8px 20px;
-    border: 1px solid var(--primary);
+    border: 3px solid var(--primary);
     transition: all 0.3s ease-out;
   }
   
@@ -32,6 +32,7 @@
   .btn--large {
     padding: 12px 26px;
     font-size: 20px;
+    font-family: 'Poppins', sans-serif;
   }
   
   .btn--large:hover,
