@@ -6,7 +6,7 @@ import { CoolButton } from '../CoolButton/CoolButton';
 function LandingSection() {
   return (
     <div className='hero-container'>
-      <video src='/videos/video-1.mp4' autoPlay loop muted />
+      <video src='/Website/videos/video-1.mp4' autoPlay loop muted />
       <h1>Triton Baja SAE @ UC San Diego</h1>
       <p>something something offroad racing something</p>
       <div className='hero-btns'>
