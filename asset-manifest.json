@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.22efd29b.css",
-    "main.js": "/static/js/main.b902eb10.js",
-    "static/js/453.99dcf01f.chunk.js": "/static/js/453.99dcf01f.chunk.js",
-    "static/media/logo.png": "/static/media/logo.6a8dc59450daecb07488.png",
-    "static/media/ucsd-logo.png": "/static/media/ucsd-logo.1c28fb8a4816fb821fd4.png",
-    "index.html": "/index.html",
-    "main.22efd29b.css.map": "/static/css/main.22efd29b.css.map",
-    "main.b902eb10.js.map": "/static/js/main.b902eb10.js.map",
-    "453.99dcf01f.chunk.js.map": "/static/js/453.99dcf01f.chunk.js.map"
+    "main.css": "./static/css/main.22efd29b.css",
+    "main.js": "./static/js/main.4854e75a.js",
+    "static/js/453.99dcf01f.chunk.js": "./static/js/453.99dcf01f.chunk.js",
+    "static/media/logo.png": "./static/media/logo.6a8dc59450daecb07488.png",
+    "static/media/ucsd-logo.png": "./static/media/ucsd-logo.1c28fb8a4816fb821fd4.png",
+    "index.html": "./index.html",
+    "main.22efd29b.css.map": "./static/css/main.22efd29b.css.map",
+    "main.4854e75a.js.map": "./static/js/main.4854e75a.js.map",
+    "453.99dcf01f.chunk.js.map": "./static/js/453.99dcf01f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.22efd29b.css",
-    "static/js/main.b902eb10.js"
+    "static/js/main.4854e75a.js"
   ]
 }
