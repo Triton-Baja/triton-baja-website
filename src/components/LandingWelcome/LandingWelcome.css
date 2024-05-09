@@ -1,0 +1,21 @@
+.landing-container {
+    background-color: rgb(4, 20, 45);
+    padding: 4rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.landing-subscription-heading {
+    text-align: left;
+    font-family: 'Poppins', sans-serif !important; 
+    color: rgb(255,255,255);
+    align-items: left;
+}
+
+.landing-subscription {
+    align-items: center;
+    text-align: left;
+}

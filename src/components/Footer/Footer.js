@@ -4,14 +4,20 @@ import { Button } from '@mui/material';
 import { Link } from 'react-router-dom';
 import UCSD from '../../ucsd-logo.png';
 import { CoolButton } from '../CoolButton/CoolButton';
+import LinktreeLogo from '../../linktree-logo.svg';
+import LinkedInLogo from '../../linkedin-logo.svg';
+import InstagramLogo from '../../instagram-logo.svg';
+import DiscordLogo from '../../discord-logo.svg';
+import EmailLogo from '../../email-logo.svg';
 
 
 function Footer() {
   return (
     <div className='footer-container'>
+      <h1 className='contact-us'>Contact Us</h1>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Want to be involved? 
+          Want to be involved?
         </p>
         <p className='footer-subscription-text'>
           Sign up for our mailing list!
@@ -28,81 +34,58 @@ function Footer() {
           </form>
         </div>
       </section>
-      <div class='footer-links'>
-        <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
-            <h2>About Us</h2>
-            <Link to='/sign-up'>our membs</Link>
-            <Link to='/'>our car</Link>
-            <Link to='/'>founding info</Link>
-            <Link to='/'>something</Link>
-      
-          </div>
-          <div class='footer-link-items'>
-            <h2>Contact Us</h2>
-            <Link to='/'>ig logo n link</Link>
-            <Link to='/'>discord logo n link</Link>
-            <Link to='/'>email logo n link</Link>
-            <Link to='/'>linktree? idk</Link>
-          </div>
-        </div>
-        <div className='footer-link-wrapper'>
 
+      <div class='footer-links'>
+        <div>
+          <Link to='https://www.youtube.com/' target="_blank">
+            <img src={EmailLogo} alt="Logo" className='footer-logo' />
+          </Link>
+          <span>YouTube</span>
         </div>
+
+        <div>
+          <Link to='https://www.linkedin.com/company/triton-baja-uc-san-diego/people/' target="_blank">
+            <img src={LinkedInLogo} alt="Logo" className='footer-logo' />
+          </Link>
+          <span>LinkedIn</span>
+        </div>
+
+        <div>
+          <Link to='https://linktr.ee/tritonbaja' target="_blank">
+            <img src={LinktreeLogo} alt="Logo" className='footer-logo' />
+          </Link>
+          <span>Linktree</span>
+        </div>
+
+        <div>
+          <Link to='https://www.instagram.com/tritonbaja/' target="_blank">
+            <img src={InstagramLogo} alt="Logo" className='footer-logo' />
+          </Link>
+          <span>Instagram</span>
+        </div>
+
+        <div>
+          <Link to='https://discord.gg/EJrFZpHCYT' target="_blank">
+            <img src={DiscordLogo} alt="Logo" className='footer-logo' />
+          </Link>
+          <span>Discord</span>
+        </div>
+
       </div>
-      <section class='social-media'>
-        <div class='social-media-wrap'>
-          <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
-            <img src={UCSD} alt="UCSD Logo" className="ucsd-logo" />   
-              <i class='fab fa-typo3' />
-            </Link>
-          </div>
-          <small class='website-rights'>Triton Baja © UCSD JSOE</small>
-          <div class='social-icons'>
-            <Link
-              class='social-icon-link facebook'
-              to='/'
-              target='_blank'
-              aria-label='Facebook'
-            >
-              <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
-              class='social-icon-link instagram'
-              to='/'
-              target='_blank'
-              aria-label='Instagram'
-            >
-              <i class='fab fa-instagram' />
-            </Link>
-            <Link
-              class='social-icon-link youtube'
-              to='/'
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <i class='fab fa-youtube' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='Twitter'
-            >
-              <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i class='fab fa-linkedin' />
-            </Link>
-          </div>
-        </div>
-      </section>
+
+
+      <div class='social-media-wrap'>
+
+      </div>
+
+      <small class='website-rights'>
+        <b>Triton Baja</b> © UCSD Jacob's School of Engineering
+      </small>
+      <div class='footer-logo'>
+        <Link to='/'>
+          <img src={UCSD} alt="UCSD Logo" className="ucsd-logo" />
+        </Link>
+      </div>
     </div>
   );
 }
