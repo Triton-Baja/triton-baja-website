@@ -6,7 +6,6 @@ import carImage from '../../car-image.webp';
 
 function LandingWelcome() {
     return (
-        <div>
         <div className='landing-container'>
             <section className='landing-subscription-heading'>
                 <h1>What is Triton Baja?</h1>
@@ -39,7 +38,6 @@ SAE racing competitions across the country.
                     </a>
                 </div>
             </section>
-        </div>
         </div>
 
     );
