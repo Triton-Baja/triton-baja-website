@@ -5,59 +5,74 @@ import Logo from '../../logo.png';
 import './NavBar.css';
 
 const NavBar = () => {
-    const [isScrolled, setIsScrolled] = useState(false);
+    const [color, setColor] = useState(false);
+
+    const changeColor = () => {
+        const header = document.querySelector('.header');
+        if (window.scrollY >= 26) {
+          header.classList.add('scrolled');
+        } else {
+          header.classList.remove('scrolled');
+        }
+      };
 
     useEffect(() => {
-        const handleScroll = () => {
-            const offset = window.scrollY;
-            if (offset > 50) {
-                setIsScrolled(true);
-            } else {
-                setIsScrolled(false);
-            }
-        };
-
-        window.addEventListener('scroll', handleScroll);
-
+        window.addEventListener('scroll', changeColor);
         return () => {
-            window.removeEventListener('scroll', handleScroll);
+            window.removeEventListener('scroll', changeColor);
         };
     }, []);
 
-    const navItems = [
-        { text: 'Home', link: '/' },
-        { text: 'Our Design', link: '/design' },
-        { text: 'Meet The Team', link: '/team' },
-        { text: 'Getting Involved', link: '/involved' },
-        { text: 'Sponsorship', link: '/sponsorship' },
-    ];
-
-
     return (
-        <AppBar position="fixed" className={ isScrolled ? "navbar scrolled" : "navbar"}>
-            <Toolbar className = { 'navbar' }>
-                <img src={Logo} alt="Logo" className='navbar-logo'/> 
+        <div className={`header ${color ? 'scrolled' : ''}`}>
+            <nav className= {`navbar ${color ? 'scrolled': ''}`}>
+                <img src={Logo} alt="Logo" className='logo' /> 
 
                 <Typography 
-                variant="h6"
-                component="div" 
-                className = 'navbar-title'
+                    variant="h6"
+                    component="div" 
+                    className={`navbar-title ${color ? 'scrolled' : ''}`}
                 >
-                    Triton Baja
+                    
                 </Typography>
 
-                {navItems.map((item, index) => (
-                    <Button 
-                    key={index}
-                    component={Link} 
-                    to={item.link} 
-                    className = 'navbar-link'
-                    >
-                        {item.text}
-                    </Button>
-                ))}
-            </Toolbar>
-        </AppBar>
+                <Button
+                    component={Link}
+                    to="/"
+                    className={`navbar-link ${color ? 'scrolled' : ''}`}
+                >
+                    Home
+                </Button>
+                <Button
+                    component={Link}
+                    to="/design"
+                    className={`navbar-link ${color ? 'scrolled' : ''}`}
+                >
+                    Our Design
+                </Button>
+                <Button
+                    component={Link}
+                    to="/team"
+                    className={`navbar-link ${color ? 'scrolled' : ''}`}
+                >
+                    Meet The Team
+                </Button>
+                <Button
+                    component={Link}
+                    to="/getinvolved"
+                    className={`navbar-link ${color ? 'scrolled' : ''}`}
+                >
+                    Getting Involved
+                </Button>
+                <Button
+                    component={Link}
+                    to="/sponsorship"
+                    className={`navbar-link ${color ? 'scrolled' : ''}`}
+                >
+                    Sponsorship
+                </Button>
+            </nav>
+        </div>
     );
 };
 

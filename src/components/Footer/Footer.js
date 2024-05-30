@@ -79,7 +79,7 @@ function Footer() {
       </div>
 
       <small class='website-rights'>
-        <b>Triton Baja</b> © UCSD Jacob's School of Engineering
+         © <b>Triton Baja</b> at University of California, San Diego 2024 
       </small>
       <div class='footer-logo'>
         <Link to='/'>

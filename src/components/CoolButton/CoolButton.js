@@ -1,9 +1,8 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './CoolButton.css';
 
-const STYLES = ['btn--primary', 'btn--outline', 'btn--test'];
-
+const STYLES = ['btn--primary', 'btn--outline'];
 const SIZES = ['btn--medium', 'btn--large'];
 
 export const CoolButton = ({
@@ -11,23 +10,24 @@ export const CoolButton = ({
   type,
   onClick,
   buttonStyle,
-  buttonSize
+  buttonSize,
+  buttonLink
 }) => {
-  const checkButtonStyle = STYLES.includes(buttonStyle)
-    ? buttonStyle
-    : STYLES[0];
+  const [appeared, setAppeared] = useState(false);
 
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setAppeared(true);
+    }, 500000); 
+    return () => clearTimeout(timeout);
+  }, []);
+
+  const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0];
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
-
+  const buttonClasses = `btn ${checkButtonStyle} ${checkButtonSize} ${appeared ? '' : 'btn-appear'}`;
   return (
-    <Link to='/sign-up' className='btn-mobile'>
-      <button
-        className={`btn ${checkButtonStyle} ${checkButtonSize}`}
-        onClick={onClick}
-        type={type}
-      >
-        {children}
-      </button>
+    <Link to={buttonLink} className={`btn ${checkButtonStyle} ${checkButtonSize} ${buttonClasses}`} onClick={onClick} type={type}>
+      {children}
     </Link>
   );
 };
