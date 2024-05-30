@@ -20,3 +20,30 @@
     align-items: center;
     text-align: left;
 }
+
+.landing-group {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    font-family: 'Poppins', sans-serif !important; 
+    color: rgb(255,255,255);
+
+  }
+
+.landing-box {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .landing-box img {
+    max-width: 100%;
+    height: auto;
+  }
+  .redirect {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255,255,255);
+  }
