@@ -45,28 +45,28 @@ const NavBar = () => {
                 </Button>
                 <Button
                     component={Link}
-                    to="/design"
+                    to="/triton-baja-website/design"
                     className={`navbar-link ${color ? 'scrolled' : ''}`}
                 >
                     Our Design
                 </Button>
                 <Button
                     component={Link}
-                    to="/team"
+                    to="/triton-baja-website/team"
                     className={`navbar-link ${color ? 'scrolled' : ''}`}
                 >
                     Meet The Team
                 </Button>
                 <Button
                     component={Link}
-                    to="/getinvolved"
+                    to="/triton-baja-website/get-involved"
                     className={`navbar-link ${color ? 'scrolled' : ''}`}
                 >
                     Getting Involved
                 </Button>
                 <Button
                     component={Link}
-                    to="/sponsorship"
+                    to="/triton-baja-website/sponsorship"
                     className={`navbar-link ${color ? 'scrolled' : ''}`}
                 >
                     Sponsorship
