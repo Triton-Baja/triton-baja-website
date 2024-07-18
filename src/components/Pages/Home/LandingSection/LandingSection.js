@@ -3,21 +3,13 @@ import '../../../../App.css';
 import './LandingSection.css';
 import { CoolButton } from '../../../CoolButton/CoolButton';
 import FallingLogo from '../../../../falling-logo.png';
+import ClubPic from '../../../../board-pictures/club-pic.png'
 
 function LandingSection() {
 
   return (
-    <div className='hero-container' style={{
-      backgroundImage: "url('Website/videos/club-pic.png')",
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-      backgroundAttachment: 'fixed',
-      backgroundRepeat: 'no-repeat',
-      perspective: '1px',
-      transformStyle: 'preserve-3d',
-      backgroundPosition: 'center -300px',
-      zIndex: '-1'
-  }}>
+    <div className='hero-container'>
+      <img src={ClubPic} alt="something" className="board-photo"/>
       <img src={FallingLogo} alt="Logo" className='falling-logo' />
       <h1 class="hero-appear hero-shadow">Triton Baja SAE @ UC San Diego</h1>
       <h1 class="hero-appear2">Triton Baja SAE @ UC San Diego</h1>

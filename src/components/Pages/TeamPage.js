@@ -7,6 +7,7 @@ import Wills from '../../board-pictures/wills.jpeg';
 import Daniel from '../../board-pictures/danny.jpeg';
 import Lukas from '../../board-pictures/lukas.jpg';
 import Luka from '../../board-pictures/luka.jpg';
+import Allison from '../../board-pictures/allison.jpg';
 import Board from '../../board-pictures/group.jpg';
 
 function TeamPage() {
