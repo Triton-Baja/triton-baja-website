@@ -38,7 +38,7 @@ const NavBar = () => {
 
                 <Button
                     component={Link}
-                    to="/"
+                    to="/home"
                     className={`navbar-link ${color ? 'scrolled' : ''}`}
                 >
                     Home
