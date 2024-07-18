@@ -38,7 +38,7 @@ const NavBar = () => {
 
                 <Button
                     component={Link}
-                    to="/home"
+                    to="/triton-baja-website"
                     className={`navbar-link ${color ? 'scrolled' : ''}`}
                 >
                     Home

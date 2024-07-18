@@ -22,7 +22,7 @@ function App() {
       <Container maxWidth={false} style={{ margin: 0, padding: 0 }}>
         <NavBar />
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/triton-baja-website" element={<Home />} />
           <Route path="/design" element={<DesignPage />} />
           <Route path="/team" element={<TeamPage />} />
           <Route path="/getinvolved" element={<InvolvedPage />} />
