@@ -1,0 +1,99 @@
+    @keyframes fadeInUp {
+    0% {
+      transform: translateY(50%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeInUp2 {
+    0% {
+      transform: translateY(60%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(-6%);
+      opacity: 1;
+    }
+  }
+  @keyframes falling-logo-hover {
+    0% {
+      transform: translateY(-100%);
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(-105%);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-100%);
+      opacity: 1;
+    }
+  }
+  .falling-logo {
+    position: absolute;
+    height: 310px;
+    z-index: 20;
+    transform: translateY(-100%);
+    animation: 3.5s falling-logo-hover infinite;
+  }
+
+  
+  .hero-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+    justify-content: center;
+    align-items: center;
+    /*box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);*/
+    object-fit: contain;
+  }
+  
+  .hero-container > h1 {
+    color: #ffffff;
+    font-size: 90px;
+    font-weight: 500;
+    font-family: 'Black Han Sans', sans-serif;
+    margin-top: -300px;
+  }
+
+  
+  .hero-container > p {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Black Han Sans', sans-serif;
+    text-shadow: 1px 3px 2px rgba(0, 0, 0, 2);
+    animation: 
+      typing 2s steps(44),
+      cursor .4s step-end infinite alternate;
+  }
+
+  @keyframes slide-in {
+    0% {
+      transform: translateY(0%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(200%);
+      opacity: 1;
+    }
+  }
+  .hero-btns {
+    margin-top: 32px;
+    animation-delay: 50000ms;
+    animation: 1s slide-in forwards;
+  }
+  
+  .hero-btns .btn {
+    margin: 6px;
+  }
+
+  .hero-btns .btn {
+    margin: 6px;
+  }

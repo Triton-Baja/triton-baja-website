@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from '@mui/material';
 import { Link } from 'react-router-dom';
 import UCSD from '../../ucsd-logo.png';
 import { CoolButton } from '../CoolButton/CoolButton';
