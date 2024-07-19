@@ -3,7 +3,7 @@ import '../../../../App.css';
 import './LandingSection.css';
 import { CoolButton } from '../../../CoolButton/CoolButton';
 import FallingLogo from '../../../../falling-logo.png';
-import ClubPic from '../../../../board-pictures/club-pic.png'
+import ClubPic from '../../../../board-pictures/club-pic.jpg'
 
 function LandingSection() {
 
@@ -21,7 +21,7 @@ function LandingSection() {
           buttonSize='btn--large'
           buttonLink="/trollpage"
         >
-          About Us
+          im aware of the slow image loading- reason is pics r uncompressed n unoptimized
         </CoolButton>
         <CoolButton
           className='btns'
