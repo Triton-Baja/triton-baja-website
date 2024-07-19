@@ -42,7 +42,7 @@ function LandingWelcome() {
                     <div className='col-lg-6'>
                         <div className="row">
                             <div class="col-lg-12">
-                                <h1 class="beige-text title-text">What is Baja SAE?</h1>
+                                <h1 class="beige-text title-text">We are Triton Baja.</h1>
                             </div>
                         </div>
                         <div class="row">
@@ -55,7 +55,7 @@ function LandingWelcome() {
                             </div>
                         </div>
                     </div>
-                    
+
                     <div className='col-lg-6'>
                         <div className="row">
                             <div class="col-lg-12 image-container">
