@@ -14,63 +14,54 @@ function Footer() {
   return (
     <div className='footer-container'>
       <h1 className='contact-us'>Contact Us</h1>
-      <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
-          Want to be involved?
-        </p>
-        <p className='footer-subscription-text'>
-          Sign up for our mailing list!
-        </p>
-        <div className='input-areas'>
-          <form>
-            <input
-              className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Your Email'
-            />
-            <CoolButton buttonStyle='btn--outline'>Subscribe</CoolButton>
-          </form>
-        </div>
-      </section>
 
-      <div class='footer-links'>
-        <div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="row social-container">
+        <div class="col-lg-2">
           <Link to='https://www.youtube.com/' target="_blank">
-            <img src={EmailLogo} alt="Logo" className='footer-logo' />
+            <i class="fa-solid fa-square-envelope fa-4x"></i>
           </Link>
-          <span>YouTube</span>
+          <span class="social-text">Email</span>
         </div>
 
-        <div>
+
+
+
+
+        <div class="col-lg-2">
           <Link to='https://www.linkedin.com/company/triton-baja-uc-san-diego/people/' target="_blank">
-            <img src={LinkedInLogo} alt="Logo" className='footer-logo' />
+            <i class="fa-brands fa-linkedin fa-4x"></i>
           </Link>
-          <span>LinkedIn</span>
+          <span class="social-text">LinkedIn</span>
         </div>
 
-        <div>
-          <Link to='https://linktr.ee/tritonbaja' target="_blank">
-            <img src={LinktreeLogo} alt="Logo" className='footer-logo' />
-          </Link>
-          <span>Linktree</span>
-        </div>
 
-        <div>
+
+
+        <div class="col-lg-2">
           <Link to='https://www.instagram.com/tritonbaja/' target="_blank">
-            <img src={InstagramLogo} alt="Logo" className='footer-logo' />
+            <i class="fa-brands fa-instagram fa-4x"></i>
           </Link>
-          <span>Instagram</span>
+          <span class="social-text">Instagram</span>
         </div>
 
-        <div>
+
+
+
+        <div class="col-lg-2">
           <Link to='https://discord.gg/EJrFZpHCYT' target="_blank">
-            <img src={DiscordLogo} alt="Logo" className='footer-logo' />
+            <i class="fa-brands fa-discord fa-4x"></i>
           </Link>
-          <span>Discord</span>
+          <span class="social-text">Discord</span>
         </div>
+
 
       </div>
+        </div>
+      </div>
+      
+
 
 
       <div class='social-media-wrap'>
@@ -78,7 +69,7 @@ function Footer() {
       </div>
 
       <small class='website-rights'>
-         © <b>Triton Baja</b> at University of California, San Diego 2024 
+        © <b>Triton Baja</b> at University of California, San Diego 2024
       </small>
       <div class='footer-logo'>
         <Link to='/'>

@@ -13,10 +13,10 @@ function InvolvedPage() {
 
       <div class='spacer2'>
         <h1>
-          Sponsors & Partners
+          Come Join Us!
         </h1>
         <h2 class="officer-subtext">
-          Thank you for your support!
+          We welcome people of all levels and disciplines.
         </h2>
 
       </div>

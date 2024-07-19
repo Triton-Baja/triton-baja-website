@@ -6,15 +6,32 @@
   box-sizing: border-box;
 }
 
+.social-container {
+  margin-top: 2rem;
+  text-align: center;
+  margin-left: 0rem;
+}
+
+.logo-container {
+  padding-right: 5rem;
+}
+
+.social-text {
+  color: #ffffff;
+  text-align: center;
+}
+
 .footer-container {
-    background-color: rgb(99, 99, 99);
-    padding: 4rem 0 2rem 0;
+    background-color: #000000;
+    padding: 4rem;
     display: flex;
-    font-weight: 400; 
+    font-family: "Black Han Sans", sans-serif;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     justify-content: center;
   }
+
+
 
   .ucsd-logo {
     height: 90px;
@@ -132,7 +149,7 @@
   }
   
   .footer-logo {
-    height: 70px;
+    height: 65px;
 }
 
   .social-media-wrap {

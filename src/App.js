@@ -28,7 +28,6 @@ function App() {
           <Route path="/triton-baja-website/get-involved" element={<InvolvedPage />} />
           <Route path="/triton-baja-website/sponsorship" element={<SponsorshipPage />} />
 
-
         </Routes>
         <Footer />
       </Container>
