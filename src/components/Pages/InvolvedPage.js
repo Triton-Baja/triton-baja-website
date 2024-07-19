@@ -16,7 +16,7 @@ function InvolvedPage() {
           Come Join Us!
         </h1>
         <h2 class="officer-subtext">
-          We welcome people of all levels and disciplines.
+          We welcome people of all levels and disciplines. WORK IN PROG
         </h2>
 
       </div>

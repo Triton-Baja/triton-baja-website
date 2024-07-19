@@ -7,7 +7,8 @@ import Wills from '../../board-pictures/wills.jpeg';
 import Daniel from '../../board-pictures/danny.jpeg';
 import Lukas from '../../board-pictures/lukas.jpg';
 import Luka from '../../board-pictures/luka.jpg';
-import Allison from '../../board-pictures/allison.jpg';
+import Allison from '../../board-pictures/allison.jpeg';
+import Jayden from '../../board-pictures/jayden.jpeg';
 import Board from '../../board-pictures/group.jpg';
 
 function TeamPage() {
@@ -260,7 +261,7 @@ function TeamPage() {
               <div class="flip-inner-container">
                 <div class="flip-front">
                   <div class="profile-image1">
-                    <img class="head-icon" src={Board} />
+                    <img class="head-icon" src={Jayden} />
                   </div>
                   <h3>Jayden Yang</h3>
                   <h6>Business Lead</h6>

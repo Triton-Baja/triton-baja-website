@@ -29,7 +29,7 @@ function LandingSection() {
           buttonSize='btn--large'
           onClick={console.log('hey')}
         >
-          Button 2
+          ideas what2do with buttons welcomed
         </CoolButton>
       </div>
     </div>

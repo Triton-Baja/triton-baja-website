@@ -2,6 +2,8 @@ import React from 'react';
 import '../../../../App.css';
 import './LandingWelcome.css';
 import carImage from '../../../../car-image.webp';
+import carImageTwo from '../../../../car-image-two.png';
+import carImageThree from '../../../../car-image-three.png';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import bootContainer from 'react-bootstrap/Container';
@@ -15,7 +17,7 @@ function LandingWelcome() {
                     <div className='col-lg-6'>
                         <div className="row">
                             <div class="col-lg-12 image-container">
-                                <img class="img" src={carImage} />
+                                <img class="img" src={carImageThree} />
                             </div>
                         </div>
 
@@ -59,7 +61,7 @@ function LandingWelcome() {
                     <div className='col-lg-6'>
                         <div className="row">
                             <div class="col-lg-12 image-container">
-                                <img class="img" src={carImage} />
+                                <img class="img" src={carImageTwo} />
                             </div>
                         </div>
 

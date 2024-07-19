@@ -1,7 +1,6 @@
 import React from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
-import UCSD from '../../ucsd-logo.png';
 import { CoolButton } from '../CoolButton/CoolButton';
 import LinktreeLogo from '../../linktree-logo.svg';
 import LinkedInLogo from '../../linkedin-logo.svg';
@@ -19,7 +18,7 @@ function Footer() {
         <div class="col-lg-6">
           <div class="row social-container">
             <div class="col-lg-2">
-              <Link to='https://www.youtube.com/' target="_blank">
+              <Link to='https://www.youtube.com/watch?v=dQw4w9WgXcQ/' target="_blank">
                 <i class="fa-solid fa-square-envelope fa-4x" style={{ color: "red" }}></i>
               </Link>
               <span class="social-text">Email</span>
@@ -30,7 +29,7 @@ function Footer() {
 
 
             <div class="col-lg-2">
-              <Link to='https://www.linkedin.com/company/triton-baja-uc-san-diego/people/' target="_blank">
+              <Link to='https://www.linkedin.com/company/triton-baja-uc-san-diego/' target="_blank">
                 <i class="fa-brands fa-linkedin linkedin-blue fa-4x"></i>
               </Link>
               <span class="social-text">LinkedIn</span>
