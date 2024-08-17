@@ -71,6 +71,9 @@ const NavBar = () => {
                 >
                     Sponsorship
                 </Button>
+                <i class="fa-solid fa-bars fa-2x hamburger">
+
+                </i>
             </nav>
         </div>
     );

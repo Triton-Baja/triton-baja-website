@@ -10,12 +10,7 @@
   height: 40vmin;
   pointer-events: none;
 }
-.hero-appear {
-  z-index: 4;
-  color: rgb(255, 149, 0) !important;
-  position: absolute;
-  animation: 0.75s fadeInUp forwards;
-}
+
 
 .board-photo {
   width: 100%;
@@ -23,7 +18,12 @@
   z-index: -1000;
   position: absolute;
 }
-
+.hero-appear {
+  z-index: 4;
+  color: rgb(255, 149, 0) !important;
+  position: absolute;
+  animation: 0.75s fadeInUp forwards;
+}
 .hero-appear2 {
   z-index: 5;
   color: rgb(255, 255, 255) !important;
