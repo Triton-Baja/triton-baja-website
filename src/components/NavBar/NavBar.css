@@ -99,6 +99,7 @@ input{
 
 .nav-slide {
   position: fixed;
+  display: block;
   top: 0;
   right: 0;
   width: 20vw; /* Adjust the width as needed */
@@ -138,18 +139,7 @@ input{
   display: none;
 }
 
-.dropdown-container {
-  justify-content: center;
-  align-items: center;
-  background-color: red;
-  z-index: -100;
-}
-.dropdown {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  z-index: 99999;
-}
+
 
 @media screen and (max-width: 1190px) {
   .navbar-link {
