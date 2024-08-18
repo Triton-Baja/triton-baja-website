@@ -101,7 +101,7 @@ input{
   position: fixed;
   top: 0;
   right: 0;
-  width: 250px; /* Adjust the width as needed */
+  width: 20vw; /* Adjust the width as needed */
   height: 100vh;
   background-color: rgba(255,255,255,0.9); /* Background color */
   transform: translateX(100%); /* Start hidden off-screen */
