@@ -3,18 +3,21 @@ import { AppBar, Toolbar, Typography, Button } from '@mui/material';
 import { Link } from 'react-router-dom';
 import Logo from '../../logo.png';
 import './NavBar.css';
+import { Spin as Hamburger } from 'hamburger-react'
+
 
 const NavBar = () => {
     const [color, setColor] = useState(false);
+    const [isToggled, setIsToggled] = useState(false);
 
     const changeColor = () => {
         const header = document.querySelector('.header');
         if (window.scrollY >= 26) {
-          header.classList.add('scrolled');
+            header.classList.add('scrolled');
         } else {
-          header.classList.remove('scrolled');
+            header.classList.remove('scrolled');
         }
-      };
+    };
 
     useEffect(() => {
         window.addEventListener('scroll', changeColor);
@@ -25,15 +28,15 @@ const NavBar = () => {
 
     return (
         <div className={`header ${color ? 'scrolled' : ''}`}>
-            <nav className= {`navbar ${color ? 'scrolled': ''}`}>
-                <img src={Logo} alt="Logo" className='logo' /> 
+            <nav className={`navbar ${color ? 'scrolled' : ''}`}>
+                <img src={Logo} alt="Logo" className='logo' />
 
-                <Typography 
+                <Typography
                     variant="h6"
-                    component="div" 
+                    component="div"
                     className={`navbar-title ${color ? 'scrolled' : ''}`}
                 >
-                    
+
                 </Typography>
 
                 <Button
@@ -70,10 +73,27 @@ const NavBar = () => {
                     className={`navbar-link ${color ? 'scrolled' : ''}`}
                 >
                     Sponsorship
-                </Button>
-                <i class="fa-solid fa-bars fa-2x hamburger">
 
-                </i>
+                </Button>
+                <div className="hamburger">
+                    <Hamburger
+                        rounded
+                        direction="left"
+                        toggled={isToggled}
+                        toggle={setIsToggled}
+                    />
+                </div>
+                <div className={`nav-slide ${isToggled ? 'show' : ''}`}>
+                    <ul>
+                        <li><Link to="/triton-baja-website">Home</Link></li>
+                        <li><Link to="/triton-baja-website/design">Our Design</Link></li>
+                        <li><Link to="/triton-baja-website/team">Meet the Team</Link></li>
+                        <li><Link to="/triton-baja-website/get-involved">Get Involved</Link></li>
+                        <li><Link to="/triton-baja-website/sponsorship">Sponsors & Partners</Link></li>
+                    </ul>
+                </div>
+
+
             </nav>
         </div>
     );

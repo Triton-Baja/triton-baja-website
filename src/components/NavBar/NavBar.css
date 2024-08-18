@@ -80,27 +80,71 @@
 /* Navbar links hover effect */
 .navbar-link:hover {
   color: #FFFFFF !important;
-  background-color: rgba(254, 186, 1, 0.85) !important;
+  background-color: rgba(255, 200, 81, 0.85) !important;
 }
 
 .navbar .logo {
   margin-right: 10px;
   height: 65px;
+  position: fixed;
+}
+input{
+  display: none;
+  visibility: hidden;
+
+}
+
+
+.nav-slide {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 250px; /* Adjust the width as needed */
+  height: 100vh;
+  background-color: rgba(255,255,255,0.9); /* Background color */
+  transform: translateX(100%); /* Start hidden off-screen */
+  transition: transform 0.3s ease-in-out; /* Smooth slide-in/out */
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2); /* Optional shadow */
+  z-index: 999; /* Ensure it's on top */
+}
+
+/* When the menu is toggled, slide it into view */
+.nav-slide.show {
+  transform: translateX(0); /* Slide in */
+}
+
+/* Add styles for the menu items */
+.nav-slide ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .hamburger {
-  position: relative;
   display: none;
 }
 
-@media screen and (max-width: 1280px) {
+.dropdown-container {
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  z-index: -100;
+}
+.dropdown {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 99999;
+}
+
+@media screen and (max-width: 1190px) {
   .navbar-link {
     /* i override becuz MUI button class will take precedence over this CSS otherwise*/
     display: none !important;
   }
   .hamburger {
-    position: relative;
     display: block;
+    z-index: 9999999;
   }
   
 }
@@ -122,3 +166,4 @@
     font-size: 1rem !important;
   }
 }
+

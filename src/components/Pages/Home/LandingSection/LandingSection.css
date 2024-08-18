@@ -36,10 +36,12 @@
   .falling-logo {
     position: absolute;
     height: 310px;
-    z-index: 20;
+    z-index: 1;
     transform: translateY(-100%);
     animation: 3.5s falling-logo-hover infinite;
   }
+
+
 
   
   .hero-container {
@@ -96,4 +98,27 @@
 
   .hero-btns .btn {
     margin: 6px;
+  }
+
+  .board-photo {
+    width: 100%;
+    margin-top: -200px;
+    z-index: -1000;
+    position: absolute;
+  }
+  .hero-appear {
+    z-index: 4;
+    color: rgb(255, 149, 0) !important;
+    position: absolute;
+    animation: 0.75s fadeInUp forwards;
+  }
+  .hero-appear2 {
+    z-index: 5;
+    color: rgb(255, 255, 255) !important;
+    transform: translateX(-0.5%);
+    position: absolute;
+    animation: 0.75s fadeInUp2 forwards;
+  }
+  .hero-shadow {
+    text-shadow: 5px 10px 10px rgb(0, 0, 0);
   }

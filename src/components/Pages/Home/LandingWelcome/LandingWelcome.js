@@ -18,6 +18,7 @@ function LandingWelcome() {
                             <div className="row">
                                 <div class="col-lg-12 image-container">
                                     <img class="img" src={carImageThree} />
+                                    
                                 </div>
                             </div>
 
