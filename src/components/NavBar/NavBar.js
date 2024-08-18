@@ -89,7 +89,7 @@ const NavBar = () => {
                         <li><Link to="/triton-baja-website/design">Our Design</Link></li>
                         <li><Link to="/triton-baja-website/team">Meet the Team</Link></li>
                         <li><Link to="/triton-baja-website/get-involved">Get Involved</Link></li>
-                        <li><Link to="/triton-baja-website/sponsorship">Sponsors & Partners</Link></li>
+                        <li><Link to="/triton-baja-website/sponsorship">Sponsorship</Link></li>
                     </ul>
                 </div>
 

@@ -25,7 +25,9 @@
   transition: .3s ease-in-out;
   box-sizing: border-box;
 }
-
+ul {
+  padding-top:200px;
+}
 .header.scrolled {
   background-color: rgba(255, 255, 255, 0.95);
   height: 70px;
@@ -116,8 +118,20 @@ input{
 /* Add styles for the menu items */
 .nav-slide ul {
   list-style: none;
-  padding: 0;
+  padding-top: 100px;
   margin: 0;
+}
+.nav-slide ul li a{
+  color: black;
+  font-size: 20px;
+  padding: 5px 0;
+  display: block;
+  text-align: center;
+  background-color: #faf6ff;
+}
+.nav-slide ul li:hover a{
+  color: #fff;
+  background-color: #8000ff;
 }
 
 .hamburger {
