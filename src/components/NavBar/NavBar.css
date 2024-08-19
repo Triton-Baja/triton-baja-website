@@ -9,7 +9,7 @@
   z-index: 1;
   background-color: #1AB4E2;
   transition: .3s ease-in-out;
-  overflow: hidden;
+  overflow: visible;
 }
 .navbar {
   position: sticky;
