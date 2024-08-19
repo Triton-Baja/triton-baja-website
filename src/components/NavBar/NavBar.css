@@ -121,6 +121,7 @@ input{
   list-style: none;
   padding-top: 100px;
   margin: 0;
+  z-index: 999999;
 }
 .nav-slide ul li a{
   color: black;
@@ -129,10 +130,12 @@ input{
   display: block;
   text-align: center;
   background-color: #faf6ff;
+  z-index: 9999998;
 }
 .nav-slide ul li:hover a{
   color: #fff;
   background-color: #8000ff;
+  z-index: 9999998;
 }
 
 .hamburger {
