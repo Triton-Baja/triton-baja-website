@@ -113,7 +113,7 @@ input{
 
 /* When the menu is toggled, slide it into view */
 .nav-slide.show {
-  transform: translateX(0); /* Slide in */
+  transform: translateX(-100%); /* Slide in */
 }
 
 /* Add styles for the menu items */
