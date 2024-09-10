@@ -35,15 +35,15 @@ function TeamPage() {
               <div class="flip-inner-container">
                 <div class="flip-front">
                   <div class="profile-image1">
-                    <img class="head-icon" src={Daniel} />
+                    <img class="head-icon" src={Wills} />
                   </div>
-                  <h3>Daniel Salter</h3>
-                  <h6>Driver Interface/Safety Lead</h6>
+                  <h3>Wills Moore</h3>
+                  <h6>President/Suspension Lead</h6>
                 </div>
                 <div class="flip-back">
                   <h2>About Me</h2>
                   <p>
-                    Hi I'm this person and I am a something year something engineering major. In my free time I like to this this and that.
+                   I’m a mechanical engineering student with enthusiasm for the outdoors, especially the alpine and a fascination with mechanical designs in motorsports.
                   </p>
                   <div class="container social-icons">
 
