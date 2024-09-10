@@ -19,10 +19,14 @@ function InvolvedPage() {
           We welcome people of all levels and disciplines. WORK IN PROG
         </h2>
 
+        <iframe
+          src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSXb2SXF58CGnjg9oxezp2oyVMlmq4OrjVBv8DGo_BIRBsCv009H9IrHY4fYtBXQLUusDOX00gBb-Zr/pubhtml?widget=true&amp;headers=false"
+          width="100%"
+          height="600"
+          frameborder="0"
+        ></iframe>
       </div>
     </section>
-
-
   );
 }
 
