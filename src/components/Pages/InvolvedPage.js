@@ -16,7 +16,7 @@ function InvolvedPage() {
           Come Join Us!
         </h1>
         <h2 class="officer-subtext">
-          We welcome people of all levels and disciplines. WORK IN PROG
+          We welcome people of all levels and disciplines. See our calendar for upcoming events and join the Discord for updates!
         </h2>
 
         <iframe
