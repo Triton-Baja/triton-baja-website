@@ -114,7 +114,7 @@ function TeamPage() {
                 <div class="flip-back">
                   <h2>About Me</h2>
                   <p>
-                    I’m a Chemical Engineering student who loves going to concerts and playing Hay Da.
+                    I’m a Chemical Engineering student who loves going to concerts and playing Hay Day.
                   </p>
                   <div class="container social-icons">
 
