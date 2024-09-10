@@ -71,15 +71,15 @@ function TeamPage() {
               <div class="flip-inner-container">
                 <div class="flip-front">
                   <div class="profile-image1">
-                    <img class="head-icon" src={Wills} />
+                    <img class="head-icon" src={Aaron} />
                   </div>
-                  <h3>Wills Moore</h3>
-                  <h6>President, Suspension Lead</h6>
+                  <h3>Aaron Schueler</h3>
+                  <h6>Technical Lead</h6>
                 </div>
                 <div class="flip-back">
                   <h2>About Me</h2>
                   <p>
-                    Hi I'm this person and I am a something year something engineering major. In my free time I like to this this and that.
+                    I’m studying mechanical engineering and like Facebook reels.
                   </p>
                   <div class="container social-icons">
 
@@ -106,15 +106,15 @@ function TeamPage() {
               <div class="flip-inner-container">
                 <div class="flip-front">
                   <div class="profile-image1">
-                    <img class="head-icon" src={Aaron} />
+                    <img class="head-icon" src={Allison} />
                   </div>
-                  <h3>Aaron Schueler</h3>
-                  <h6>Technical Director</h6>
+                  <h3>Allison Chiang</h3>
+                  <h6>Logistics Director</h6>
                 </div>
                 <div class="flip-back">
                   <h2>About Me</h2>
                   <p>
-                    Hi I'm this person and I am a something year something engineering major. In my free time I like to this this and that.
+                    I’m a Chemical Engineering student who loves going to concerts and playing Hay Day.
                   </p>
                   <div class="container social-icons">
 
