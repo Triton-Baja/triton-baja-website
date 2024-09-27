@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/triton-baja-website/static/css/main.80e40072.css",
-    "main.js": "/triton-baja-website/static/js/main.b6a72fff.js",
+    "main.js": "/triton-baja-website/static/js/main.3db3deaa.js",
     "static/js/453.99dcf01f.chunk.js": "/triton-baja-website/static/js/453.99dcf01f.chunk.js",
     "static/media/triton-baja-uc-san-diego-sponsorship-packet.pdf": "/triton-baja-website/static/media/triton-baja-uc-san-diego-sponsorship-packet.6d05edab92835cfd9dbc.pdf",
     "static/media/group-pic.jpg": "/triton-baja-website/static/media/group-pic.60c73960dd0a7c8ec3c4.jpg",
@@ -17,7 +17,9 @@
     "static/media/car-image-three.png": "/triton-baja-website/static/media/car-image-three.5996390dc511116a7f9e.png",
     "static/media/car-image.webp": "/triton-baja-website/static/media/car-image.d8f9db59f7f4e13eb29d.webp",
     "static/media/aaron.jpeg": "/triton-baja-website/static/media/aaron.c439948c70498599594c.jpeg",
+    "static/media/Brian.jpeg": "/triton-baja-website/static/media/Brian.ed2ae6b34cbe79621151.jpeg",
     "static/media/danny.jpeg": "/triton-baja-website/static/media/danny.c35310bc0fde56aebe93.jpeg",
+    "static/media/Trevor.jpeg": "/triton-baja-website/static/media/Trevor.70588cbdf9382cfbf14b.jpeg",
     "static/media/wills.jpeg": "/triton-baja-website/static/media/wills.512cd546c4d55e0e780e.jpeg",
     "static/media/luka.jpg": "/triton-baja-website/static/media/luka.bd2b1a61765234a39572.jpg",
     "static/media/allison.jpeg": "/triton-baja-website/static/media/allison.16d084410fc4639f0f74.jpeg",
@@ -34,11 +36,11 @@
     "static/media/linktree-logo.svg": "/triton-baja-website/static/media/linktree-logo.a123df1b31efa0544e5b4eb966db9b60.svg",
     "static/media/email-logo.svg": "/triton-baja-website/static/media/email-logo.22b640c59ef8c38b848bc6e38fcd4cb6.svg",
     "main.80e40072.css.map": "/triton-baja-website/static/css/main.80e40072.css.map",
-    "main.b6a72fff.js.map": "/triton-baja-website/static/js/main.b6a72fff.js.map",
+    "main.3db3deaa.js.map": "/triton-baja-website/static/js/main.3db3deaa.js.map",
     "453.99dcf01f.chunk.js.map": "/triton-baja-website/static/js/453.99dcf01f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.80e40072.css",
-    "static/js/main.b6a72fff.js"
+    "static/js/main.3db3deaa.js"
   ]
 }
