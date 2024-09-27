@@ -8,7 +8,9 @@ import Daniel from '../../board-pictures/danny.jpeg';
 import Lukas from '../../board-pictures/lukas.jpg';
 import Luka from '../../board-pictures/luka.jpg';
 import Allison from '../../board-pictures/allison.jpeg';
+import Trevor from '../../board-pictures/Trevor.jpeg';
 import Jayden from '../../board-pictures/jayden.jpeg';
+import Brian from '../../board-pictures/Brian.jpeg';
 import Board from '../../board-pictures/group.jpg';
 
 function TeamPage() {
@@ -30,7 +32,7 @@ function TeamPage() {
 
 
         <div class="row">
-        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="pricing-column col-lg-4 col-md-6">
             <div class="flip-container">
               <div class="flip-inner-container">
                 <div class="flip-front">
@@ -43,23 +45,22 @@ function TeamPage() {
                 <div class="flip-back">
                   <h2>About Me</h2>
                   <p>
-                   I’m a mechanical engineering student with enthusiasm for the outdoors, especially the alpine and a fascination with mechanical designs in motorsports.
+                    I’m a mechanical engineering student with enthusiasm for the outdoors, especially the alpine and a fascination with mechanical designs in motorsports.
                   </p>
                   <div class="container social-icons">
-
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-brands fa-linkedin"></i> LinkedIn</button>
-
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-brands fa-instagram"></i> Instagram</button>
+                    <br></br>
+                    <br></br>
 
                   </div>
                   <div class="container social-icons">
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-solid fa-envelope"></i> Email</button>
+                    <button type="button" className="btn btn-outline-dark media-button" onClick={() => window.open('https://www.linkedin.com/in/wills-moore', '_blank')}>
+                      <i className="fa-brands fa-linkedin"></i> LinkedIn
+                    </button>
 
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-brands fa-discord"></i> Discord</button>
+                    <button type="button" className="btn btn-outline-dark media-button" onClick={() => window.open('https://mail.google.com/mail/?view=cm&fs=1&to=whmoore@ucsd.edu&su=Subject&body=BodyText', '_blank')}>
+                      <i className="fa-solid fa-envelope"></i> Email
+                    </button>
+
                   </div>
                 </div>
               </div>
@@ -82,20 +83,21 @@ function TeamPage() {
                     I’m studying mechanical engineering and like Facebook reels.
                   </p>
                   <div class="container social-icons">
-
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-brands fa-linkedin"></i> LinkedIn</button>
-
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-brands fa-instagram"></i> Instagram</button>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
 
                   </div>
                   <div class="container social-icons">
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-solid fa-envelope"></i> Email</button>
+                    <button type="button" className="btn btn-outline-dark media-button" onClick={() => window.open('https://www.linkedin.com/in/aaron-schueler/', '_blank')}>
+                      <i className="fa-brands fa-linkedin"></i> LinkedIn
+                    </button>
 
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-brands fa-discord"></i> Discord</button>
+                    <button type="button" className="btn btn-outline-dark media-button" onClick={() => window.open('https://mail.google.com/mail/?view=cm&fs=1&to=aschueler@ucsd.edu&su=Subject&body=BodyText', '_blank')}>
+                      <i className="fa-solid fa-envelope"></i> Email
+                    </button>
+
                   </div>
                 </div>
               </div>
@@ -106,31 +108,31 @@ function TeamPage() {
               <div class="flip-inner-container">
                 <div class="flip-front">
                   <div class="profile-image1">
-                    <img class="head-icon" src={Allison} />
+                    <img class="head-icon" src={Daniel} />
                   </div>
-                  <h3>Allison Chiang</h3>
-                  <h6>Logistics Director</h6>
+                  <h3>Danny Salter</h3>
+                  <h6>Driver Interface/Safety Lead</h6>
                 </div>
                 <div class="flip-back">
                   <h2>About Me</h2>
                   <p>
-                    I’m a Chemical Engineering student who loves going to concerts and playing Hay Day.
+                    Hey I'm Danny. I'm studying mechanical engineering and love motorsports, FB marketplace, ChatGPT, surfing, and my dog.
                   </p>
                   <div class="container social-icons">
-
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-brands fa-linkedin"></i> LinkedIn</button>
-
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-brands fa-instagram"></i> Instagram</button>
+                    <br></br>
+                    <br></br>
+                    <br></br>
 
                   </div>
                   <div class="container social-icons">
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-solid fa-envelope"></i> Email</button>
+                    <button type="button" className="btn btn-outline-dark media-button" onClick={() => window.open('https://www.linkedin.com/in/aaron-schueler/', '_blank')}>
+                      <i className="fa-brands fa-linkedin"></i> LinkedIn
+                    </button>
 
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-brands fa-discord"></i> Discord</button>
+                    <button type="button" className="btn btn-outline-dark media-button" onClick={() => window.open('https://mail.google.com/mail/?view=cm&fs=1&to=aschueler@ucsd.edu&su=Subject&body=BodyText', '_blank')}>
+                      <i className="fa-solid fa-envelope"></i> Email
+                    </button>
+
                   </div>
                 </div>
               </div>
@@ -153,23 +155,22 @@ function TeamPage() {
                 <div class="flip-back">
                   <h2>About Me</h2>
                   <p>
-                    Hi I'm this person and I am a something year something engineering major. In my free time I like to this this and that.
+                    Hi, I’m Lukas! I am a bioengineering: biotechnology major and enjoy music, skiing, and am interested in all things engineering related.
                   </p>
                   <div class="container social-icons">
-
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-brands fa-linkedin"></i> LinkedIn</button>
-
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-brands fa-instagram"></i> Instagram</button>
+                    <br></br>
+                    <br></br>
 
                   </div>
                   <div class="container social-icons">
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-solid fa-envelope"></i> Email</button>
+                    <button type="button" className="btn btn-outline-dark media-button" onClick={() => window.open('https://www.linkedin.com/in/aaron-schueler/', '_blank')}>
+                      <i className="fa-brands fa-linkedin"></i> LinkedIn
+                    </button>
 
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-brands fa-discord"></i> Discord</button>
+                    <button type="button" className="btn btn-outline-dark media-button" onClick={() => window.open('https://mail.google.com/mail/?view=cm&fs=1&to=aschueler@ucsd.edu&su=Subject&body=BodyText', '_blank')}>
+                      <i className="fa-solid fa-envelope"></i> Email
+                    </button>
+
                   </div>
                 </div>
               </div>
@@ -181,31 +182,27 @@ function TeamPage() {
               <div class="flip-inner-container">
                 <div class="flip-front">
                   <div class="profile-image1">
-                    <img class="head-icon" src={Board} />
+                    <img class="head-icon" src={Brian} />
                   </div>
-                  <h3>Someone</h3>
-                  <h6>Something</h6>
+                  <h3>Brian Diaz</h3>
+                  <h6>Chassis Co-Lead</h6>
                 </div>
                 <div class="flip-back">
                   <h2>About Me</h2>
                   <p>
-                    Hi I'm this person and I am a something year something engineering major. In my free time I like to this this and that.
+                    I’m an Aerospace Engineering student with a passion for innovative automotive, aerospace, and tech design. As such, some of my favorite movies are related to these interests in some way, like Ford v Ferrari, Interstellar, and Dune.
                   </p>
                   <div class="container social-icons">
-
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-brands fa-linkedin"></i> LinkedIn</button>
-
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-brands fa-instagram"></i> Instagram</button>
-
                   </div>
                   <div class="container social-icons">
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-solid fa-envelope"></i> Email</button>
+                    <button type="button" className="btn btn-outline-dark media-button" onClick={() => window.open('https://www.linkedin.com/in/drianbiaz/', '_blank')}>
+                      <i className="fa-brands fa-linkedin"></i> LinkedIn
+                    </button>
 
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-brands fa-discord"></i> Discord</button>
+                    <button type="button" className="btn btn-outline-dark media-button" onClick={() => window.open('https://mail.google.com/mail/?view=cm&fs=1&to=b5diaz@ucsd.edu&su=Subject&body=BodyText', '_blank')}>
+                      <i className="fa-solid fa-envelope"></i> Email
+                    </button>
+
                   </div>
                 </div>
               </div>
@@ -225,23 +222,24 @@ function TeamPage() {
                 <div class="flip-back">
                   <h2>About Me</h2>
                   <p>
-                    Hi I'm this person and I am a something year something engineering major. In my free time I like to this this and that.
+                    I’m a mechanical engineering student and I like welding, milling, and fishing.
                   </p>
                   <div class="container social-icons">
-
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-brands fa-linkedin"></i> LinkedIn</button>
-
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-brands fa-instagram"></i> Instagram</button>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
 
                   </div>
                   <div class="container social-icons">
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-solid fa-envelope"></i> Email</button>
+                    <button type="button" className="btn btn-outline-dark media-button" onClick={() => window.open('https://www.linkedin.com/in/luka-zhkenti-40a0502b9/', '_blank')}>
+                      <i className="fa-brands fa-linkedin"></i> LinkedIn
+                    </button>
 
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-brands fa-discord"></i> Discord</button>
+                    <button type="button" className="btn btn-outline-dark media-button" onClick={() => window.open('https://mail.google.com/mail/?view=cm&fs=1&to=lzhkenti@ucsd.edu&su=Subject&body=BodyText', '_blank')}>
+                      <i className="fa-solid fa-envelope"></i> Email
+                    </button>
+
                   </div>
                 </div>
               </div>
@@ -269,23 +267,24 @@ function TeamPage() {
                 <div class="flip-back">
                   <h2>About Me</h2>
                   <p>
-                    Hi I'm this person and I am a something year something engineering major. In my free time I like to this this and that.
+                    I’m studying business economics and I love Taylor Swift and Fortnight.
                   </p>
                   <div class="container social-icons">
-
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-brands fa-linkedin"></i> LinkedIn</button>
-
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-brands fa-instagram"></i> Instagram</button>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
 
                   </div>
                   <div class="container social-icons">
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-solid fa-envelope"></i> Email</button>
+                    <button type="button" className="btn btn-outline-dark media-button" onClick={() => window.open('https://www.linkedin.com/in/jaydenxyang/', '_blank')}>
+                      <i className="fa-brands fa-linkedin"></i> LinkedIn
+                    </button>
 
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-brands fa-discord"></i> Discord</button>
+                    <button type="button" className="btn btn-outline-dark media-button" onClick={() => window.open('https://mail.google.com/mail/?view=cm&fs=1&to=wey017@ucsd.edu&su=Subject&body=BodyText', '_blank')}>
+                      <i className="fa-solid fa-envelope"></i> Email
+                    </button>
+
                   </div>
                 </div>
               </div>
@@ -305,23 +304,24 @@ function TeamPage() {
                 <div class="flip-back">
                   <h2>About Me</h2>
                   <p>
-                    Hi I'm this person and I am a something year something engineering major. In my free time I like to this this and that.
+                    I’m a Chemical Engineering student who loves going to concerts and playing Hay Day.
                   </p>
                   <div class="container social-icons">
-
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-brands fa-linkedin"></i> LinkedIn</button>
-
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-brands fa-instagram"></i> Instagram</button>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
 
                   </div>
                   <div class="container social-icons">
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-solid fa-envelope"></i> Email</button>
+                    <button type="button" className="btn btn-outline-dark media-button" onClick={() => window.open('https://www.linkedin.com/in/allisonbchiang/', '_blank')}>
+                      <i className="fa-brands fa-linkedin"></i> LinkedIn
+                    </button>
 
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-brands fa-discord"></i> Discord</button>
+                    <button type="button" className="btn btn-outline-dark media-button" onClick={() => window.open('https://mail.google.com/mail/?view=cm&fs=1&to=a4chiang@ucsd.edu&su=Subject&body=BodyText', '_blank')}>
+                      <i className="fa-solid fa-envelope"></i> Email
+                    </button>
+
                   </div>
                 </div>
               </div>
@@ -333,31 +333,30 @@ function TeamPage() {
               <div class="flip-inner-container">
                 <div class="flip-front">
                   <div class="profile-image1">
-                    <img class="head-icon" src={Board} />
+                    <img class="head-icon" src={Trevor} />
                   </div>
-                  <h3>Someone</h3>
-                  <h6>Something</h6>
+                  <h3>Trevor Marshall</h3>
+                  <h6>Chassis Co-Lead</h6>
                 </div>
                 <div class="flip-back">
                   <h2>About Me</h2>
                   <p>
-                    Hi I'm this person and I am a something year something engineering major. In my free time I like to this this and that.
+                    I’m a mechanical engineering student with a passion for aerospace design, an avid rock climber, and hold a great appreciation for the great outdoors.
                   </p>
                   <div class="container social-icons">
+                    <br></br>
 
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-brands fa-linkedin"></i> LinkedIn</button>
-
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-brands fa-instagram"></i> Instagram</button>
 
                   </div>
                   <div class="container social-icons">
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-solid fa-envelope"></i> Email</button>
+                    <button type="button" className="btn btn-outline-dark media-button" onClick={() => window.open('https://www.linkedin.com/in/trevor-marshall1/', '_blank')}>
+                      <i className="fa-brands fa-linkedin"></i> LinkedIn
+                    </button>
 
-                    <button type="button" name="button" class="btn btn-outline-dark media-button">
-                      <i class="fa-brands fa-discord"></i> Discord</button>
+                    <button type="button" className="btn btn-outline-dark media-button" onClick={() => window.open('https://mail.google.com/mail/?view=cm&fs=1&to=tsmarshall@ucsd.edu&su=Subject&body=BodyText', '_blank')}>
+                      <i className="fa-solid fa-envelope"></i> Email
+                    </button>
+
                   </div>
                 </div>
               </div>
