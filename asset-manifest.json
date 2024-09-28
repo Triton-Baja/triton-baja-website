@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/triton-baja-website/static/css/main.80e40072.css",
-    "main.js": "/triton-baja-website/static/js/main.3db3deaa.js",
+    "main.js": "/triton-baja-website/static/js/main.3a234d61.js",
     "static/js/453.99dcf01f.chunk.js": "/triton-baja-website/static/js/453.99dcf01f.chunk.js",
     "static/media/triton-baja-uc-san-diego-sponsorship-packet.pdf": "/triton-baja-website/static/media/triton-baja-uc-san-diego-sponsorship-packet.6d05edab92835cfd9dbc.pdf",
     "static/media/group-pic.jpg": "/triton-baja-website/static/media/group-pic.60c73960dd0a7c8ec3c4.jpg",
@@ -36,11 +36,11 @@
     "static/media/linktree-logo.svg": "/triton-baja-website/static/media/linktree-logo.a123df1b31efa0544e5b4eb966db9b60.svg",
     "static/media/email-logo.svg": "/triton-baja-website/static/media/email-logo.22b640c59ef8c38b848bc6e38fcd4cb6.svg",
     "main.80e40072.css.map": "/triton-baja-website/static/css/main.80e40072.css.map",
-    "main.3db3deaa.js.map": "/triton-baja-website/static/js/main.3db3deaa.js.map",
+    "main.3a234d61.js.map": "/triton-baja-website/static/js/main.3a234d61.js.map",
     "453.99dcf01f.chunk.js.map": "/triton-baja-website/static/js/453.99dcf01f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.80e40072.css",
-    "static/js/main.3db3deaa.js"
+    "static/js/main.3a234d61.js"
   ]
 }
