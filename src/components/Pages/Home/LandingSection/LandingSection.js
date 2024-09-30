@@ -16,9 +16,9 @@ function LandingSection() {
         <img src={FallingLogo} alt="Logo" className='falling-logo' />
         <h1 class="hero-appear hero-shadow">Triton Baja SAE @ UC San Diego</h1>
         <h1 class="hero-appear2">Triton Baja SAE @ UC San Diego</h1>
-        <p>In B58 we trust</p>
+        <p></p>
         <div className='hero-btns'>
-          <CoolButton
+          {/*<CoolButton
             className='btns'
             buttonStyle='btn--outline'
             buttonSize='btn--large'
@@ -34,8 +34,8 @@ function LandingSection() {
               buttonSize='btn--large'
             >
               Button 2
-            </CoolButton>
-          </a>
+            </CoolButton> 
+          </a>*/}
         </div>
       </div>
 

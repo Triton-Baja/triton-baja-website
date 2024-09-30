@@ -16,7 +16,7 @@ function InvolvedPage() {
           Come Join Us!
         </h1>
         <h2 class="officer-subtext">
-          We welcome people of all levels and disciplines. See our calendar for upcoming events and join the Discord for updates!
+          We welcome people of all levels and disciplines. For Fall 2024, we will be meeting Tuesdays @ 6-8 PM & Sunday @ 10-3 PM. See our calendar for upcoming events and tune into the Discord for updates! Our available teams include Powertrain, Driver Interface, Manufacturing, Chassis, Business, Media, and Electronics. If you're interested, please fill out the Triton Baja Membership Form!
         </h2>
 
         <iframe

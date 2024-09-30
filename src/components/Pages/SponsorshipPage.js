@@ -15,7 +15,7 @@ import Packet from '../../sponsor-logos/triton-baja-uc-san-diego-sponsorship-pac
 function SponsorshipPage() {
   return (
     <section>
-      <img class='board-photo' src={GroupPic} />
+      <img class='board-photo sponsor-cover' src={GroupPic} />
       <div class='spacer'>
         <h1 class="hero-appear hero-shadow">Sponsors & Partners</h1>
         <h1 class="hero-appear2">Sponsors & Partners</h1>
@@ -77,37 +77,35 @@ function SponsorshipPage() {
           <div className='col-lg-6'>
             <div className="row">
               <div class="col-lg-12">
-                <h1 class="navy-text title-text subtext">We need your help!</h1>
+                <h2 class="navy-text title-text subtext"></h2>
               </div>
             </div>
             <div class="row">
               <div className='col-lg-12 navy-text landing-padding'>
-              We are looking for sponsors to join us in our quest to design and build a vehicle that can withstand the toughest conditions and compete in annual Baja SAE competitions.
-              </div>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <div className='col-lg-12 navy-text landing-padding'>
-              We are looking for sponsors to join us in our quest to design and build a vehicle that can withstand the toughest conditions and compete in annual Baja SAE competitions.
-              </div>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <div className='col-lg-12 navy-text landing-padding'>
-              We are looking for sponsors to join us in our quest to design and build a vehicle that can withstand the toughest conditions and compete in annual Baja SAE competitions.
 
-              Please contact us TURNTHISTEXTINTOHYPERLINKTHATSCROLLSDOWNTOBOTTOM at baja@ucsd.edu for any inquiries or at any other platforms below!
               </div>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+
+              <br></br>
+              <div className='col-lg-12 navy-text landing-padding sponsorship-text'>
+                We need your help! We are looking for sponsors to join us in our quest to design and build a vehicle that can withstand the toughest conditions and compete in annual Baja SAE competitions.
+                Interested in collaborating with us? Please email us at baja@ucsd.edu to get in contact with an officer that will further assist you with the sponsorship process.
+                <br></br>
+                <br></br>
+                <br></br>
+                Thank you for your time and interest in Triton Baja!
+
+              </div>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+
 
             </div>
           </div>
