@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/triton-baja-website/static/css/main.80e40072.css",
-    "main.js": "/triton-baja-website/static/js/main.3db3deaa.js",
+    "main.css": "/triton-baja-website/static/css/main.6f7aece1.css",
+    "main.js": "/triton-baja-website/static/js/main.1674da1a.js",
     "static/js/453.99dcf01f.chunk.js": "/triton-baja-website/static/js/453.99dcf01f.chunk.js",
-    "static/media/triton-baja-uc-san-diego-sponsorship-packet.pdf": "/triton-baja-website/static/media/triton-baja-uc-san-diego-sponsorship-packet.6d05edab92835cfd9dbc.pdf",
     "static/media/group-pic.jpg": "/triton-baja-website/static/media/group-pic.60c73960dd0a7c8ec3c4.jpg",
     "static/media/tabling.jpg": "/triton-baja-website/static/media/tabling.0b9b66cd883c32065632.jpg",
     "static/media/group.jpg": "/triton-baja-website/static/media/group.38e9a68995e0bc4edff2.jpg",
     "static/media/jumpscare.mp4": "/triton-baja-website/static/media/jumpscare.5871b2a19d47b0c5a366.mp4",
     "static/media/car-image-two.png": "/triton-baja-website/static/media/car-image-two.d397b3a6964530930512.png",
     "static/media/falling-logo.png": "/triton-baja-website/static/media/falling-logo.3dcce925e7382199ec91.png",
+    "static/media/triton-baja-uc-san-diego-sponsorship-packet.pdf": "/triton-baja-website/static/media/triton-baja-uc-san-diego-sponsorship-packet.fa7746649e6aa7432dcb.pdf",
     "static/media/haas.png": "/triton-baja-website/static/media/haas.818d8a3fda9daf64ca32.png",
     "static/media/club-pic.jpg": "/triton-baja-website/static/media/club-pic.2133dfa0cdf3be7fc3e5.jpg",
     "static/media/ucsd-meche-logo.png": "/triton-baja-website/static/media/ucsd-meche-logo.8c59a25776a228f73bc4.png",
@@ -35,12 +35,12 @@
     "index.html": "/triton-baja-website/index.html",
     "static/media/linktree-logo.svg": "/triton-baja-website/static/media/linktree-logo.a123df1b31efa0544e5b4eb966db9b60.svg",
     "static/media/email-logo.svg": "/triton-baja-website/static/media/email-logo.22b640c59ef8c38b848bc6e38fcd4cb6.svg",
-    "main.80e40072.css.map": "/triton-baja-website/static/css/main.80e40072.css.map",
-    "main.3db3deaa.js.map": "/triton-baja-website/static/js/main.3db3deaa.js.map",
+    "main.6f7aece1.css.map": "/triton-baja-website/static/css/main.6f7aece1.css.map",
+    "main.1674da1a.js.map": "/triton-baja-website/static/js/main.1674da1a.js.map",
     "453.99dcf01f.chunk.js.map": "/triton-baja-website/static/js/453.99dcf01f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.80e40072.css",
-    "static/js/main.3db3deaa.js"
+    "static/css/main.6f7aece1.css",
+    "static/js/main.1674da1a.js"
   ]
 }
