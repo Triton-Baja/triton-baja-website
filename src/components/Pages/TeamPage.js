@@ -288,8 +288,6 @@ function TeamPage() {
   </div>
 </div>
 
-
-        <div class="row">
           <div class="pricing-column col-lg-4 col-md-6">
             <div class="flip-container">
               <div class="flip-inner-container">
@@ -363,7 +361,7 @@ function TeamPage() {
               </div>
             </div>
           </div>
-
+       <div class="row">
           <div class="pricing-column col-lg-4 col-md-6">
             <div class="flip-container">
               <div class="flip-inner-container">
