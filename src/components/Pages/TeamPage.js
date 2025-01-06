@@ -12,6 +12,8 @@ import Trevor from '../../board-pictures/Trevor.jpeg';
 import Jayden from '../../board-pictures/jayden.jpeg';
 import Brian from '../../board-pictures/Brian.jpeg';
 import Board from '../../board-pictures/group.jpg';
+import Chris from '../../board-pictures/chriscordano.jpg';
+
 
 function TeamPage() {
   return (
@@ -250,7 +252,40 @@ function TeamPage() {
         </div>
 
 
+<div class="pricing-column col-lg-4 col-md-6">
+  <div class="flip-container">
+    <div class="flip-inner-container">
+      <div class="flip-front">
+        <div class="profile-image1">
+          <img class="head-icon" src={Chris} />
+        </div>
+        <h3>Christopher Cordano</h3>
+        <h6>Manufacturing Co-Lead</h6>
+      </div>
+      <div class="flip-back">
+        <h2>About Me</h2>
+        <p>
+          Hi! I'm Christopher, the Manufacturing Co-Lead.
+        </p>
+        <div class="container social-icons">
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+        </div>
+        <div class="container social-icons">
+          <button type="button" className="btn btn-outline-dark media-button" onClick={() => window.open('https://www.linkedin.com/in/chriscordano/', '_blank')}>
+            <i className="fa-brands fa-linkedin"></i> LinkedIn
+          </button>
 
+          <button type="button" className="btn btn-outline-dark media-button" onClick={() => window.open('https://mail.google.com/mail/?view=cm&fs=1&to=ccordano@ucsd.edu&su=Subject&body=BodyText', '_blank')}>
+            <i className="fa-solid fa-envelope"></i> Email
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
         <div class="row">
