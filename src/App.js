@@ -18,20 +18,22 @@ import Footer from './components/Footer/Footer';
 function App() {
   return (
     <>
-    <HashRouter>
-      <Container maxWidth={false} style={{ margin: 0, padding: 0 }}>
-        <NavBar />
-        <Routes>
-          <Route path="/triton-baja-website" element={<Home />} />
-          <Route path="/triton-baja-website/design" element={<DesignPage />} />
-          <Route path="/triton-baja-website/team" element={<TeamPage />} />
-          <Route path="/triton-baja-website/get-involved" element={<InvolvedPage />} />
-          <Route path="/triton-baja-website/sponsorship" element={<SponsorshipPage />} />
+      <HashRouter>
+        <Container maxWidth={false} style={{ margin: 0, padding: 0 }}>
+          <NavBar />
+          <Routes>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/design" element={<DesignPage />} />
+              <Route path="/team" element={<TeamPage />} />
+              <Route path="/get-involved" element={<InvolvedPage />} />
+              <Route path="/sponsorship" element={<SponsorshipPage />} />
+            </Routes>
 
-        </Routes>
-        <Footer />
-      </Container>
-    </HashRouter>
+          </Routes>
+          <Footer />
+        </Container>
+      </HashRouter>
     </>
   );
 }
