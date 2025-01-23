@@ -8,7 +8,7 @@ import Daniel from '../../board-pictures/danny.jpeg';
 import Lukas from '../../board-pictures/lukas.jpg';
 import Luka from '../../board-pictures/luka.jpg';
 import Giovanni from '../../board-pictures/giovanni.jpeg';
-import Chris from '../../board-pictures/chris.jpeg';
+import Chris from '../../board-pictures/chris.jpg';
 import Allison from '../../board-pictures/allison.jpeg';
 import Trevor from '../../board-pictures/Trevor.jpeg';
 import Jayden from '../../board-pictures/jayden.jpeg';
