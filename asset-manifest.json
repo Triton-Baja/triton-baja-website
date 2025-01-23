@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/triton-baja-website/static/css/main.6f7aece1.css",
-    "main.js": "/triton-baja-website/static/js/main.9b61e63d.js",
+    "main.js": "/triton-baja-website/static/js/main.e721c2ce.js",
     "static/js/453.99dcf01f.chunk.js": "/triton-baja-website/static/js/453.99dcf01f.chunk.js",
+    "static/media/chris.jpg": "/triton-baja-website/static/media/chris.a28541dd2bd0aab2fb34.jpg",
     "static/media/group-pic.jpg": "/triton-baja-website/static/media/group-pic.60c73960dd0a7c8ec3c4.jpg",
     "static/media/tabling.jpg": "/triton-baja-website/static/media/tabling.0b9b66cd883c32065632.jpg",
     "static/media/group.jpg": "/triton-baja-website/static/media/group.38e9a68995e0bc4edff2.jpg",
@@ -17,7 +18,6 @@
     "static/media/car-image-three.png": "/triton-baja-website/static/media/car-image-three.5996390dc511116a7f9e.png",
     "static/media/car-image.webp": "/triton-baja-website/static/media/car-image.d8f9db59f7f4e13eb29d.webp",
     "static/media/aaron.jpeg": "/triton-baja-website/static/media/aaron.c439948c70498599594c.jpeg",
-    "static/media/chris.jpeg": "/triton-baja-website/static/media/chris.7f9c62574a626d0e4feb.jpeg",
     "static/media/Brian.jpeg": "/triton-baja-website/static/media/Brian.ed2ae6b34cbe79621151.jpeg",
     "static/media/danny.jpeg": "/triton-baja-website/static/media/danny.c35310bc0fde56aebe93.jpeg",
     "static/media/Trevor.jpeg": "/triton-baja-website/static/media/Trevor.70588cbdf9382cfbf14b.jpeg",
@@ -38,11 +38,11 @@
     "static/media/linktree-logo.svg": "/triton-baja-website/static/media/linktree-logo.a123df1b31efa0544e5b4eb966db9b60.svg",
     "static/media/email-logo.svg": "/triton-baja-website/static/media/email-logo.22b640c59ef8c38b848bc6e38fcd4cb6.svg",
     "main.6f7aece1.css.map": "/triton-baja-website/static/css/main.6f7aece1.css.map",
-    "main.9b61e63d.js.map": "/triton-baja-website/static/js/main.9b61e63d.js.map",
+    "main.e721c2ce.js.map": "/triton-baja-website/static/js/main.e721c2ce.js.map",
     "453.99dcf01f.chunk.js.map": "/triton-baja-website/static/js/453.99dcf01f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6f7aece1.css",
-    "static/js/main.9b61e63d.js"
+    "static/js/main.e721c2ce.js"
   ]
 }
