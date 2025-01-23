@@ -7,13 +7,13 @@ import Wills from '../../board-pictures/wills.jpeg';
 import Daniel from '../../board-pictures/danny.jpeg';
 import Lukas from '../../board-pictures/lukas.jpg';
 import Luka from '../../board-pictures/luka.jpg';
+import Giovanni from '../../board-pictures/giovanni.jpeg';
+import Chris from '../../board-pictures/chris.jpeg';
 import Allison from '../../board-pictures/allison.jpeg';
 import Trevor from '../../board-pictures/Trevor.jpeg';
 import Jayden from '../../board-pictures/jayden.jpeg';
 import Brian from '../../board-pictures/Brian.jpeg';
 import Board from '../../board-pictures/group.jpg';
-import Chris from '../../board-pictures/chriscordano.jpg';
-
 
 function TeamPage() {
   return (
@@ -178,6 +178,116 @@ function TeamPage() {
               </div>
             </div>
           </div>
+          <div class="pricing-column col-lg-4 col-md-6">
+            <div class="flip-container">
+              <div class="flip-inner-container">
+                <div class="flip-front">
+                  <div class="profile-image1">
+                    <img class="head-icon" src={Giovanni} />
+                  </div>
+                  <h3>Giovanni Ramirez</h3>
+                  <h6>Lead of Electronics and Data Acquisition</h6>
+                </div>
+                <div class="flip-back">
+                  <h2>About Me</h2>
+                  <p>
+                    I’m a mechanical engineering student passionate about robotics and all the fields that encompass it. I do a lot of biking, photography, and 3D Printing in my free time.
+                  </p>
+                  <div class="container social-icons">
+                    <br></br>
+
+                  </div>
+                  <div class="container social-icons">
+                    <button type="button" className="btn btn-outline-dark media-button" onClick={() => window.open('https://www.linkedin.com/in/giovannibr/', '_blank')}>
+                      <i className="fa-brands fa-linkedin"></i> LinkedIn
+                    </button>
+
+                    <button type="button" className="btn btn-outline-dark media-button" onClick={() => window.open('https://mail.google.com/mail/?view=cm&fs=1&to=gbernalramirez@ucsd.edu&su=Subject&body=BodyText', '_blank')}>
+                      <i className="fa-solid fa-envelope"></i> Email
+                    </button>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="pricing-column col-lg-4 col-md-6">
+            <div class="flip-container">
+              <div class="flip-inner-container">
+                <div class="flip-front">
+                  <div class="profile-image1">
+                    <img class="head-icon" src={Luka} />
+                  </div>
+                  <h3>Luka Zhkenti</h3>
+                  <h6>Manufacturing Co-Lead</h6>
+                </div>
+                <div class="flip-back">
+                  <h2>About Me</h2>
+                  <p>
+                    I’m a mechanical engineering student and I like welding, milling, and fishing.
+                  </p>
+                  <div class="container social-icons">
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+
+                  </div>
+                  <div class="container social-icons">
+                    <button type="button" className="btn btn-outline-dark media-button" onClick={() => window.open('https://www.linkedin.com/in/luka-zhkenti-40a0502b9/', '_blank')}>
+                      <i className="fa-brands fa-linkedin"></i> LinkedIn
+                    </button>
+
+                    <button type="button" className="btn btn-outline-dark media-button" onClick={() => window.open('https://mail.google.com/mail/?view=cm&fs=1&to=lzhkenti@ucsd.edu&su=Subject&body=BodyText', '_blank')}>
+                      <i className="fa-solid fa-envelope"></i> Email
+                    </button>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+
+
+
+
+        <div class="row">
+          
+
+          <div class="pricing-column col-lg-4 col-md-6">
+            <div class="flip-container">
+              <div class="flip-inner-container">
+                <div class="flip-front">
+                  <div class="profile-image1">
+                    <img class="head-icon" src={Chris} />
+                  </div>
+                  <h3>Chris Cordano</h3>
+                  <h6>Manufacturing Co-Lead</h6>
+                </div>
+                <div class="flip-back">
+                  <h2>About Me</h2>
+                  <p>
+                    Senior mechanical engineering major with a knack for tinkering, specializing in renewable energy and environmental flows. Passionate about innovative design, intentional improvement and engineering a more sustainable future.
+                  </p>
+                  <div class="container social-icons">
+                    <button type="button" className="btn btn-outline-dark media-button" onClick={() => window.open('https://www.linkedin.com/in/chriscordano/', '_blank')}>
+                      <i className="fa-brands fa-linkedin"></i> LinkedIn
+                    </button>
+
+                    <button type="button" className="btn btn-outline-dark media-button" onClick={() => window.open('https://mail.google.com/mail/?view=cm&fs=1&to=ccordano@ucsd.edu&su=Subject&body=BodyText', '_blank')}>
+                      <i className="fa-solid fa-envelope"></i> Email
+                    </button>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
           <div class="pricing-column col-lg-4 col-md-6">
             <div class="flip-container">
@@ -216,29 +326,27 @@ function TeamPage() {
               <div class="flip-inner-container">
                 <div class="flip-front">
                   <div class="profile-image1">
-                    <img class="head-icon" src={Luka} />
+                    <img class="head-icon" src={Trevor} />
                   </div>
-                  <h3>Luka Zhkenti</h3>
-                  <h6>Manufacturing Lead</h6>
+                  <h3>Trevor Marshall</h3>
+                  <h6>Chassis Co-Lead</h6>
                 </div>
                 <div class="flip-back">
                   <h2>About Me</h2>
                   <p>
-                    I’m a mechanical engineering student and I like welding, milling, and fishing.
+                    I’m a mechanical engineering student with a passion for aerospace design, an avid rock climber, and hold a great appreciation for the great outdoors.
                   </p>
                   <div class="container social-icons">
                     <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
+
 
                   </div>
                   <div class="container social-icons">
-                    <button type="button" className="btn btn-outline-dark media-button" onClick={() => window.open('https://www.linkedin.com/in/luka-zhkenti-40a0502b9/', '_blank')}>
+                    <button type="button" className="btn btn-outline-dark media-button" onClick={() => window.open('https://www.linkedin.com/in/trevor-marshall1/', '_blank')}>
                       <i className="fa-brands fa-linkedin"></i> LinkedIn
                     </button>
 
-                    <button type="button" className="btn btn-outline-dark media-button" onClick={() => window.open('https://mail.google.com/mail/?view=cm&fs=1&to=lzhkenti@ucsd.edu&su=Subject&body=BodyText', '_blank')}>
+                    <button type="button" className="btn btn-outline-dark media-button" onClick={() => window.open('https://mail.google.com/mail/?view=cm&fs=1&to=tsmarshall@ucsd.edu&su=Subject&body=BodyText', '_blank')}>
                       <i className="fa-solid fa-envelope"></i> Email
                     </button>
 
@@ -250,45 +358,9 @@ function TeamPage() {
 
 
         </div>
-  
-  <div class="row">
 
-<div class="pricing-column col-lg-4 col-md-6">
-  <div class="flip-container">
-    <div class="flip-inner-container">
-      <div class="flip-front">
-        <div class="profile-image1">
-          <img class="head-icon" src={Chris} />
-        </div>
-        <h3>Christopher Cordano</h3>
-        <h6>Manufacturing Co-Lead</h6>
-      </div>
-      <div class="flip-back">
-        <h2>About Me</h2>
-        <p>
-          Hi! I'm Christopher, the Manufacturing Co-Lead.
-        </p>
-        <div class="container social-icons">
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-        </div>
-        <div class="container social-icons">
-          <button type="button" className="btn btn-outline-dark media-button" onClick={() => window.open('https://www.linkedin.com/in/chriscordano/', '_blank')}>
-            <i className="fa-brands fa-linkedin"></i> LinkedIn
-          </button>
-
-          <button type="button" className="btn btn-outline-dark media-button" onClick={() => window.open('https://mail.google.com/mail/?view=cm&fs=1&to=ccordano@ucsd.edu&su=Subject&body=BodyText', '_blank')}>
-            <i className="fa-solid fa-envelope"></i> Email
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-          <div class="pricing-column col-lg-4 col-md-6">
+        <div class="row">
+          <div class="pricing-column col-lg-6 col-md-6">
             <div class="flip-container">
               <div class="flip-inner-container">
                 <div class="flip-front">
@@ -361,44 +433,10 @@ function TeamPage() {
               </div>
             </div>
           </div>
-       <div class="row">
-          <div class="pricing-column col-lg-4 col-md-6">
-            <div class="flip-container">
-              <div class="flip-inner-container">
-                <div class="flip-front">
-                  <div class="profile-image1">
-                    <img class="head-icon" src={Trevor} />
-                  </div>
-                  <h3>Trevor Marshall</h3>
-                  <h6>Chassis Co-Lead</h6>
-                </div>
-                <div class="flip-back">
-                  <h2>About Me</h2>
-                  <p>
-                    I’m a mechanical engineering student with a passion for aerospace design, an avid rock climber, and hold a great appreciation for the great outdoors.
-                  </p>
-                  <div class="container social-icons">
-                    <br></br>
-
-
-                  </div>
-                  <div class="container social-icons">
-                    <button type="button" className="btn btn-outline-dark media-button" onClick={() => window.open('https://www.linkedin.com/in/trevor-marshall1/', '_blank')}>
-                      <i className="fa-brands fa-linkedin"></i> LinkedIn
-                    </button>
-
-                    <button type="button" className="btn btn-outline-dark media-button" onClick={() => window.open('https://mail.google.com/mail/?view=cm&fs=1&to=tsmarshall@ucsd.edu&su=Subject&body=BodyText', '_blank')}>
-                      <i className="fa-solid fa-envelope"></i> Email
-                    </button>
-
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
 
 
         </div>
+
       </div>
 
     </section>
