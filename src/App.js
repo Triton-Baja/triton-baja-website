@@ -23,11 +23,11 @@ function App() {
           <NavBar />
           <Routes>
             <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/design" element={<DesignPage />} />
-              <Route path="/team" element={<TeamPage />} />
-              <Route path="/get-involved" element={<InvolvedPage />} />
-              <Route path="/sponsorship" element={<SponsorshipPage />} />
+              <Route path="/triton-baja-website" element={<Home />} />
+              <Route path="/triton-baja-website/design" element={<DesignPage />} />
+              <Route path="/triton-baja-website/team" element={<TeamPage />} />
+              <Route path="/triton-baja-website/get-involved" element={<InvolvedPage />} />
+              <Route path="/triton-baja-website/sponsorship" element={<SponsorshipPage />} />
             </Routes>
 
           </Routes>
