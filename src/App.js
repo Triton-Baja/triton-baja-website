@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { Container } from '@mui/material';
 import NavBar from './components/NavBar/NavBar';
 import DesignPage from './components/Pages/DesignPage';
