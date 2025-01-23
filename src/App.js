@@ -18,7 +18,7 @@ import Footer from './components/Footer/Footer';
 function App() {
   return (
     <>
-    <BrowserRouter>
+    <HashRouter>
       <Container maxWidth={false} style={{ margin: 0, padding: 0 }}>
         <NavBar />
         <Routes>
@@ -31,7 +31,7 @@ function App() {
         </Routes>
         <Footer />
       </Container>
-    </BrowserRouter>
+    </HashRouter>
     </>
   );
 }
